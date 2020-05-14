@@ -13,7 +13,7 @@ class _ProductScreenState extends State<ProductScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal[50],
+      backgroundColor: Colors.grey[100],
       body: Column(
         children: <Widget>[
           Stack(
@@ -100,7 +100,7 @@ class _ProductScreenState extends State<ProductScreen> {
                       style: TextStyle(
                         fontSize: 35,
                         color: Colors.white,
-                        fontFamily: 'Saira',
+                        fontFamily: 'Josefin Sans',
                         fontWeight: FontWeight.bold,
                       ),
                     ),

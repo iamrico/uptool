@@ -16,10 +16,10 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red[400],
+        backgroundColor: Theme.of(context).primaryColor,
         elevation: 0.0,
       ),
-      backgroundColor: Colors.red[400],
+      backgroundColor: Theme.of(context).primaryColor,
       body: Container(
         child: Stack(
           children: <Widget>[

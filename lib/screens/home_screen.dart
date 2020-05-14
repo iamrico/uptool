@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(_isCollapsed ? 0 : 20.0),
               child: Scaffold(
-                backgroundColor: Colors.teal[50],
+                backgroundColor: Colors.grey[100],
                 appBar: AppBar(
                   backgroundColor: Colors.transparent,
                   actions: <Widget>[

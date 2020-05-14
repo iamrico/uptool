@@ -19,11 +19,12 @@ class ProductDetailArea extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              SizedBox(height: 20),
               Text(
                 'Description',
                 style: TextStyle(
                   fontFamily: 'Josefin Sans',
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.normal,
                 ),
               ),
               SizedBox(height: 80),
