@@ -21,6 +21,17 @@ class Menu extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              SizedBox(height: 20),
+              Text(
+                'Account Settings',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Theme.of(context).primaryColor,
+                  fontFamily: 'Josefin Sans',
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              SizedBox(height: 20),
               Text(
                 'Log off',
                 style: TextStyle(

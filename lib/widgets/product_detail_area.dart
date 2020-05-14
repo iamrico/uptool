@@ -17,6 +17,7 @@ class ProductDetailArea extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'Josefin Sans',
                   fontWeight: FontWeight.bold,
+                  fontSize: 30,
                 ),
               ),
               SizedBox(height: 20),
@@ -25,10 +26,18 @@ class ProductDetailArea extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'Josefin Sans',
                   fontWeight: FontWeight.normal,
+                  fontSize: 14,
                 ),
               ),
-              SizedBox(height: 80),
-              Text('\$20'),
+              SizedBox(height: 60),
+              Text(
+                '\$20',
+                style: TextStyle(
+                  fontFamily: 'Josefin Sans',
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30,
+                ),
+              ),
               SizedBox(height: 15),
             ],
           ),
